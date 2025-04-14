@@ -20,6 +20,18 @@
             "size": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "orientation": "portait",
+    "screenenshots": [
+        {
+            "src":"/screenshot1.png",
+            "sizes": "320x480",
+            "type": "image.png"
+        }
+    ],
+    "categories": ["Education"],
+    "prefer_related_applications": false,
+    "scope": "/"
+    
 
 }
