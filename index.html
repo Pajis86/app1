@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,17 @@
     <title>App Portfório</title>
 
     <!-- Registro do service worke (nas próximas aulas)-->
+    <!-- Registro do service worker (nas próximas aulas)-->
     <script>
-        if ('serviceWorker' in navigator){
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
-                .then(() => console.log("Service Worker registrado"))
+                .then(() => console.log("Service Worker registrado."))
                 .catch((err) => console.error("Erro no Service Worker:", err));
         }
     </script>
-
     <style>
-        body, html{
+        body,
+        html {
             margin: 0;
             padding: 0;
             height: 100%;
@@ -32,9 +34,11 @@
 
 
 </head>
+
 <body>
     <!-- iframe que carrega o site encapsulado-->
 
     <iframe src="https://portfolio-ivory-nu-52.vercel.app/" title="3SIS" frameborder="0"></iframe>
 </body>
+
 </html>
