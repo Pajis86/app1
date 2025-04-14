@@ -8,7 +8,13 @@
     <title>App Portfório</title>
 
     <!-- Registro do ervice worke (nas próximas aulas)-->
-
+    <script>
+        if ('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log("Service Worker registrado"))
+                .catch((err) => console.error("Erro no Service Worker:", err));
+        }
+    </script>
 
 
 </head>
