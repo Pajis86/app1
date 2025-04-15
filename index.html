@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
-    <title>App Portfório</title>
+    <link rel="manifest" href="manifest.json">
+    <title>Portfólio</title>
 
-  <!-- Registro do service worker (nas próximas aulas)-->
-  <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
-            .then(() => console.log("Service Worker registrado."))
-            .catch((err) => console.error("Erro no Service Worker:", err));
-    }
-</script>
+    <!-- Registro do service worker (nas próximas aulas)-->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log("Service Worker registrado."))
+                .catch((err) => console.error("Erro no Service Worker:", err));
+        }
+    </script>
     
-
 </head>
-
 <body>
     <!-- iframe que carrega o site encapsulado-->
-
-    <iframe src="https://portfolio-ivory-nu-52.vercel.app/" title="3SIS" frameborder="0"></iframe>
+    <iframe src="https://portfolio-ivory-nu-52.vercel.app/" title="Portfolio 2025" frameborder="0"></iframe>
 </body>
-
 </html>
