@@ -1,6 +1,6 @@
 {
-    "name": "ProfBT",
-    "short_name": "ProfBT",
+    "name": "Portfolio",
+    "short_name": "Portfolio",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
